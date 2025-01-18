@@ -1,0 +1,7 @@
+-- CREATE TABLE book(
+--     book_id INTEGER PRIMARY KEY,
+--     title TEXT,
+--     author TEXT,
+--     price TEXT,
+--     amount INTEGER
+-- );
