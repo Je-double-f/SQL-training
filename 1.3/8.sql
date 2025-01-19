@@ -14,9 +14,11 @@ VALUES ('Мастер и Маргарита', 'Булгаков М.А.', 670.99,
        ('Игрок', 'Достоевский Ф.М.', 480.50, 10),
        ('Стихотворения и поэмы', 'Есенин С.А.', 650.00, 15);
 
-  SELECT author, SUM(price*amount) AS Стоимость
-    FROM book
-   WHERE title <> 'Белая гвардия' AND title <> 'Идиот'
-GROUP BY author
-  HAVING Стоимость > 5000
-ORDER BY Стоимость DESCa
+SELECT title AS Книга, author AS Автор, SUM(amount) AS 'Количество экземпляров', 
+       SUM(price*amount) AS 'Общая стоимость всех книг', ROUND(AVG(price) ,2) AS 'Средняя стоимость книги',
+       MIN(price) AS 'Минимальная стоимость книги', MAX(price) AS 'Максимальная стоимость книги' 
+FROM book
+WHERE title LIKE '_% _%'
+GROUP BY title, author
+HAVING AVG(price) BETWEEN 670 AND 800
+ORDER BY author;
