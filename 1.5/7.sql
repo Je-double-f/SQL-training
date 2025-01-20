@@ -1,19 +1,19 @@
 CREATE TABLE book(
     book_id INTEGER PRIMARY KEY,
-    title TEXT,
-    author TEXT,
-    price DECIMAL,
-    amount INTEGER,
-    buy INTEGER
+      title TEXT,
+     author TEXT,
+      price DECIMAL,
+     amount INTEGER,
+        buy INTEGER
 );
 
 
 CREATE TABLE supply(
        supply_id INTEGER PRIMARY KEY,
-       title TEXT,
-       author TEXT,
-       price DECIMAL(8,2),
-       amount INT
+           title TEXT,
+          author TEXT,
+           price DECIMAL(8,2),
+          amount INT
 );
 
 INSERT INTO book(title, author, price, amount, buy)
@@ -30,11 +30,10 @@ VALUES  ('Лирика', 'Пастернак Б.Л.', 518.99, 2),
         ('Идиот', 'Достоевский Ф.М.', 360.80, 3);
 
 UPDATE book
-SET 
-    amount = book.amount + supply.amount,
-    price = (book.price + supply.price) / 2
-FROM supply
-WHERE book.title = supply.title AND book.author = supply.author;
+   SET amount = book.amount + supply.amount,
+       price = (book.price + supply.price) / 2
+  FROM supply
+ WHERE book.title = supply.title AND book.author = supply.author;
 
 
 SELECT * FROM book;
