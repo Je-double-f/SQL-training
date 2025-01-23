@@ -1,0 +1,74 @@
+[
+  {
+    "fine_id": 1,
+    "name": "Баранов П.Е.",
+    "number_plate": "Р523ВТ",
+    "violation": "Превышение скорости(от 40 до 60)",
+    "sum_fine": 500,
+    "date_violation": "2020-01-12T00:00:00.000Z",
+    "date_payment": "2020-01-17T00:00:00.000Z"
+  },
+  {
+    "fine_id": 2,
+    "name": "Абрамова К.А.",
+    "number_plate": "О111АВ",
+    "violation": "Проезд на запрещающий сигнал",
+    "sum_fine": 1000,
+    "date_violation": "2020-01-14T00:00:00.000Z",
+    "date_payment": "2020-02-27T00:00:00.000Z"
+  },
+  {
+    "fine_id": 3,
+    "name": "Яковлев Г.Р.",
+    "number_plate": "Т330ТТ",
+    "violation": "Превышение скорости(от 20 до 40)",
+    "sum_fine": 500,
+    "date_violation": "2020-01-23T00:00:00.000Z",
+    "date_payment": "2020-02-23T00:00:00.000Z"
+  },
+  {
+    "fine_id": 4,
+    "name": "Яковлев Г.Р.",
+    "number_plate": "М701АА",
+    "violation": "Превышение скорости(от 20 до 40)",
+    "sum_fine": 500,
+    "date_violation": "2020-01-12T00:00:00.000Z",
+    "date_payment": null
+  },
+  {
+    "fine_id": 5,
+    "name": "Колесов С.П.",
+    "number_plate": "К892АХ",
+    "violation": "Превышение скорости(от 20 до 40)",
+    "sum_fine": 500,
+    "date_violation": "2020-02-01T00:00:00.000Z",
+    "date_payment": null
+  },
+  {
+    "fine_id": 6,
+    "name": "Баранов П.Е.",
+    "number_plate": "Р523ВТ",
+    "violation": "Превышение скорости(от 40 до 60)",
+    "sum_fine": 2000,
+    "date_violation": "2020-02-14T00:00:00.000Z",
+    "date_payment": null
+  },
+  {
+    "fine_id": 7,
+    "name": "Абрамова К.А.",
+    "number_plate": "О111АВ",
+    "violation": "Проезд на запрещающий сигнал",
+    "sum_fine": 2000,
+    "date_violation": "2020-02-23T00:00:00.000Z",
+    "date_payment": null
+  },
+  {
+    "fine_id": 8,
+    "name": "Яковлев Г.Р.",
+    "number_plate": "Т330ТТ",
+    "violation": "Проезд на запрещающий сигнал",
+    "sum_fine": 500,
+    "date_violation": "2020-03-03T00:00:00.000Z",
+    "date_payment": "2020-03-23T00:00:00.000Z"
+  }
+]
