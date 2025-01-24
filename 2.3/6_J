@@ -1,0 +1,10 @@
+[
+  {
+    "genre_id": 1,
+    "name_genre": "Роман"
+  },
+  {
+    "genre_id": 2,
+    "name_genre": "Поэзия"
+  }
+]
