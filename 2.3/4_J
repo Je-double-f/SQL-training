@@ -1,0 +1,90 @@
+[
+  {
+    "book_id": 1,
+    "title": "Мастер и Маргарита",
+    "author_id": 1,
+    "genre_id": 1,
+    "price": 670.99,
+    "amount": 3
+  },
+  {
+    "book_id": 2,
+    "title": "Белая гвардия",
+    "author_id": 1,
+    "genre_id": 1,
+    "price": 540.5,
+    "amount": 5
+  },
+  {
+    "book_id": 3,
+    "title": "Идиот",
+    "author_id": 2,
+    "genre_id": 1,
+    "price": 460,
+    "amount": 10
+  },
+  {
+    "book_id": 4,
+    "title": "Братья Карамазовы",
+    "author_id": 2,
+    "genre_id": 1,
+    "price": 799.01,
+    "amount": 3
+  },
+  {
+    "book_id": 5,
+    "title": "Игрок",
+    "author_id": 2,
+    "genre_id": 1,
+    "price": 480.5,
+    "amount": 10
+  },
+  {
+    "book_id": 6,
+    "title": "Стихотворения и поэмы",
+    "author_id": 3,
+    "genre_id": 2,
+    "price": 650,
+    "amount": 15
+  },
+  {
+    "book_id": 7,
+    "title": "Черный человек",
+    "author_id": 3,
+    "genre_id": 2,
+    "price": 570.2,
+    "amount": 6
+  },
+  {
+    "book_id": 8,
+    "title": "Лирика",
+    "author_id": 4,
+    "genre_id": 2,
+    "price": 518.99,
+    "amount": 2
+  },
+  {
+    "book_id": 9,
+    "title": "Доктор Живаго",
+    "author_id": 4,
+    "genre_id": 1,
+    "price": 380.8,
+    "amount": 4
+  },
+  {
+    "book_id": 13,
+    "title": "Стихотворения и поэмы",
+    "author_id": 5,
+    "genre_id": 2,
+    "price": 255.9,
+    "amount": 4
+  },
+  {
+    "book_id": 14,
+    "title": "Остров сокровищ",
+    "author_id": 6,
+    "genre_id": 3,
+    "price": 599.99,
+    "amount": 5
+  }
+]
