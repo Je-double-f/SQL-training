@@ -1,0 +1,44 @@
+[
+  {
+    "supply_id": 1,
+    "title": "Доктор Живаго",
+    "author": "Пастернак Б.Л.",
+    "price": 380.8,
+    "amount": 4
+  },
+  {
+    "supply_id": 2,
+    "title": "Черный человек",
+    "author": "Есенин С.А.",
+    "price": 570.2,
+    "amount": 6
+  },
+  {
+    "supply_id": 3,
+    "title": "Белая гвардия",
+    "author": "Булгаков М.А.",
+    "price": 540.5,
+    "amount": 7
+  },
+  {
+    "supply_id": 4,
+    "title": "Идиот",
+    "author": "Достоевский Ф.М.",
+    "price": 360.8,
+    "amount": 0
+  },
+  {
+    "supply_id": 5,
+    "title": "Стихотворения и поэмы",
+    "author": "Лермонтов М.Ю.",
+    "price": 255.9,
+    "amount": 4
+  },
+  {
+    "supply_id": 6,
+    "title": "Остров сокровищ",
+    "author": "Стивенсон Р.Л.",
+    "price": 599.99,
+    "amount": 5
+  }
+]
