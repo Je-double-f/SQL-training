@@ -1,5 +1,3 @@
-SELECT name_author
-FROM authors INNER JOIN book IN author.author_id = book.author_id
-GROUP BY name_author
-HAVING COUNT(title) < 10 AS Количество
-ORDER BY name_author ASC;
+SELECT name_author, title, name_genre 
+  FROM genre INNER JOIN book ON genre.genre_id = book.genre_id 
+             INNER JOIN author ON author.author_id = book.author_id;
