@@ -1,0 +1,26 @@
+[
+  {
+    "author_id": 1,
+    "name_author": "Булгаков М.А."
+  },
+  {
+    "author_id": 2,
+    "name_author": "Достоевский Ф.М."
+  },
+  {
+    "author_id": 3,
+    "name_author": "Есенин С.А."
+  },
+  {
+    "author_id": 4,
+    "name_author": "Пастернак Б.Л."
+  },
+  {
+    "author_id": 5,
+    "name_author": "Лермонтов М.Ю."
+  },
+  {
+    "author_id": 6,
+    "name_author": "Стивенсон Р.Л."
+  }
+]
