@@ -1,0 +1,26 @@
+[
+  {
+    "buy_id": 1,
+    "title": "Идиот",
+    "price": 460,
+    "amount": 1
+  },
+  {
+    "buy_id": 1,
+    "title": "Мастер и Маргарита",
+    "price": 670.99,
+    "amount": 1
+  },
+  {
+    "buy_id": 1,
+    "title": "Черный человек",
+    "price": 570.2,
+    "amount": 2
+  },
+  {
+    "buy_id": 4,
+    "title": "Игрок",
+    "price": 480.5,
+    "amount": 1
+  }
+]
