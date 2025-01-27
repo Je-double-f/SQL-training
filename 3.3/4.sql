@@ -1,15 +1,14 @@
 SELECT name_program
   FROM program
        INNER JOIN program_subject USING(program_id)
-       INNER JOIN         subject USING(subject_id)
- WHERE name_subject = 'Информатика'
-ORDER BY name_program DESC;
-
+GROUP BY name_program
+HAVING MIN(min_result) >= 40
+ORDER BY name_program;
 
 
 +-------------------------------------+
 | name_program                        |
 +-------------------------------------+
+| Мехатроника и робототехника         |
 | Прикладная математика и информатика |
-| Математика и компьютерные науки     |
 +-------------------------------------+
